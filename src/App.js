@@ -1,12 +1,10 @@
 import './App.css';
+import Counters from './Components/Counters';
 
 function App() {
-  const amount = 5;
   return (
     <div className="App">
-        <button>Increment</button>
-        <button>Decrement</button>
-        <button>IncrementBy {amount}</button>
+       <Counters/>
     </div>
   );
 }
